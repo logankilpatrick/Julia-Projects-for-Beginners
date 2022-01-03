@@ -10,7 +10,7 @@ function play_number_guess_human()
 
     # While the number has not been guessed, keep prompting for guesses
     while guess != target_number
-        print("Please guess a number between 1 and $target_number: ")
+        print("Please guess a number between 1 and $total_numbers: ")
         guess = parse(Int64, readline())
         # Convert the string value input to a number
 
