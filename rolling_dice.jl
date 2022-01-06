@@ -17,7 +17,7 @@ function rolling_dice()
             println("Dice has number $current_side")
         elseif guess == 0
             println("Exiting")
-            break # Stop the for loop if the user decides to do so
+            break # Stop the while loop if the user decides to do so
         else
             println("Invalid input, please try again")
         end 
