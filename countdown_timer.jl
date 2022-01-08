@@ -3,7 +3,8 @@
 function run_timer()
     print("Enter the amount of seconds: ")
     seconds = parse(Int64, readline())
-    println("Countdown starts now with $seconds seconds.")
+    
+    println("Countdown starts now with $seconds seconds remaining.")
     current_seconds = seconds
 
     # While the countdown timer is not finished
@@ -11,16 +12,17 @@ function run_timer()
 
         # Print the current countdown
         if current_seconds != seconds
-            println("Current seconds: $current_seconds")
+            println("Seconds left: $current_seconds")
         end
 
         # Wait for one second
         sleep(1)
         current_seconds = current_seconds - 1
     end
-    println("Countdown stops!")
+    println("The countdown is over!")
 end
 
+# Call the run_timer function in a loop until the user quits it
 function countdown_timer()
 
     # While the user chooses to run the countdown timer
@@ -33,7 +35,7 @@ function countdown_timer()
             # Run the timer
             run_timer()
         elseif answer == 0
-            println("Exiting")
+            println("Exiting...")
             break # Stop the countdown timer
         else
             println("Invalid input, please try again")
@@ -41,3 +43,5 @@ function countdown_timer()
     end
 
 end
+
+countdown_timer()
