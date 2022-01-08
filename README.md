@@ -8,6 +8,7 @@ Easy Ideas to Get Started Coding in Julia. Learn more by reading [this article o
 - [Computer Number Guesser 🤖](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/number_guess_computer.jl)
 - [Rock 🗿, Paper 📃, Scissors ✂️](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/rock_paper_scissors.jl)
 - [Password Generator 🎫](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/generate_passwords.jl)
+- [Leap Year 📅](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/leap_year.jl)
 - [Dice Rolling Simulator 🎲](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/rolling_dice.jl)
 - [Countdown Timer ⏱️](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/countdown_timer.jl)
   
