@@ -1,6 +1,6 @@
 # 10 Julia Projects for Beginners 🧑‍💻
 
-Easy Ideas to Get Started Coding in Julia. Learn more by reading [this article on medium](https://logankilpatrick.medium.com/5-julia-projects-for-beginners-easy-ideas-to-get-started-coding-in-julia-938b823a0a08).
+Easy Ideas to Get Started Coding in Julia. Learn more by reading [this article on medium](https://logankilpatrick.medium.com/5-julia-projects-for-beginners-easy-ideas-to-get-started-coding-in-julia-938b823a0a08). If you are new to Julia and un-sure of it's benefits, you might want to check out [Why you should learn Julia, as a beginner / first-time programmer](https://blog.devgenius.io/why-you-should-learn-julia-as-a-beginner-first-time-programmer-96e0ad33faba) or [Why You Should Invest in Julia Now, as a Data Scientist](https://betterprogramming.pub/why-you-should-invest-in-julia-now-as-a-data-scientist-30dc346d62e4).
 
 ## Projects
 - [Mad Libs ✍️](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/madlibs.jl)
@@ -8,7 +8,9 @@ Easy Ideas to Get Started Coding in Julia. Learn more by reading [this article o
 - [Computer Number Guesser 🤖](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/number_guess_computer.jl)
 - [Rock 🗿, Paper 📃, Scissors ✂️](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/rock_paper_scissors.jl)
 - [Password Generator 🎫](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/generate_passwords.jl)
-- [Rolling Dice 🎲](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/rolling_dice.jl)
+- [Leap Year 📅](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/leap_year.jl)
+- [Dice Rolling Simulator 🎲](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/rolling_dice.jl)
+- [Countdown Timer ⏱️](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/countdown_timer.jl)
   
 ## Contribute
 
