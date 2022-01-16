@@ -14,4 +14,11 @@ Easy Ideas to Get Started Coding in Julia. Learn more by reading [this article o
   
 ## Contribute
 
-Have a small Julia project you want to contribute? Open a PR with the code and add it to the list here. Let's help people learn Julia!
+Have a small Julia project you want to contribute? Open a PR with the code and add it to the list here. Let's help people learn Julia! A few things to keep in mind:
+
+- Add comments to make the code clear for new users
+- Make sure the code has consistent spacing
+- Use lowercase file names and "_"'s between the words (snake casing)
+- Add new examples to the list of problems in the README
+
+Thank you for contributing 🤗
