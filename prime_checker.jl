@@ -1,15 +1,15 @@
 function isPrime(number::Int64)
     if number == 1
         return false
-    elseif number ==2
+    elseif number == 2
         return true
-    else    # We are looking after 2, we make condition for 1 and 2. 
+    else
         for i in 2:sqrt(number)
             if mod(number, i) == 0  # Prime numbers are not divisible by the numbers that come before their square roots.  
                 return false
             end
         end
-        return true  # if for loop finished, it's really prime number :D
+        return true  # if for loop finished, it's really a prime number :D
     end
 end
 while true
