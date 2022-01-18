@@ -11,11 +11,9 @@ Easy Ideas to Get Started Coding in Julia. Learn more by reading [this article o
 - [Leap Year 📅](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/leap_year.jl)
 - [Dice Rolling Simulator 🎲](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/rolling_dice.jl)
 - [Countdown Timer ⏱️](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/countdown_timer.jl)
-<<<<<<< HEAD
-- [Prime Number Checker 🔢](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/prime_checker.jl)
-=======
 - [Calculator 🧮](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/calculator.jl)
->>>>>>> d456b50a33c6618b0a28201e3a246b60ec76a5ee
+- [Prime Number Checker 🔢](https://github.com/logankilpatrick/10-Julia-Projects-for-Beginners/blob/main/prime_checker.jl)
+  
   
 ## Contribute
 
