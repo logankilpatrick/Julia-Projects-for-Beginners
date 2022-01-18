@@ -1,4 +1,4 @@
-# 10 Julia Projects for Beginners 🧑‍💻
+# Julia Projects for Beginners 🧑‍💻
 
 Easy Ideas to Get Started Coding in Julia. Learn more by reading [this article on medium](https://logankilpatrick.medium.com/5-julia-projects-for-beginners-easy-ideas-to-get-started-coding-in-julia-938b823a0a08). If you are new to Julia and un-sure of it's benefits, you might want to check out [Why you should learn Julia, as a beginner / first-time programmer](https://blog.devgenius.io/why-you-should-learn-julia-as-a-beginner-first-time-programmer-96e0ad33faba) or [Why You Should Invest in Julia Now, as a Data Scientist](https://betterprogramming.pub/why-you-should-invest-in-julia-now-as-a-data-scientist-30dc346d62e4).
 
@@ -23,5 +23,6 @@ Have a small Julia project you want to contribute? Open a PR with the code and a
 - Make sure the code has consistent spacing
 - Use lowercase file names and "_"'s between the words (snake casing)
 - Add new examples to the list of problems in the README
+- Try to add a new concept that the other programs don't cover
 
 Thank you for contributing 🤗
