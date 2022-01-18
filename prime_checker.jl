@@ -12,7 +12,6 @@ function isPrime(number::Int64)
         return true  # if for loop finished, it's really prime number :D
     end
 end
-
 while true
     number = parse(Int64, Base.prompt("Enter the number you want to check, press '0' to exit program")) #Taking input from user and creating while loop. 
     if number == 0
@@ -23,6 +22,5 @@ while true
         else
             println(number, " is NOT a prime number!")
         end
-
     end
 end
