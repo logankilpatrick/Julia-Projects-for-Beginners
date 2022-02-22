@@ -1,4 +1,27 @@
-# Chatbot
+"""
+A simple Chatbot. 
+
+# Examples
+```julia
+julia> include("chatbot.jl")
+Hi there! What is you name?: Julia
+Hello, Julia! How are you?
+Julia: I'm great! 
+Chatty: Cool!
+Julia: What is your name? 
+Chatty: I'm Chatty
+Julia: How are you Chatty? 
+Chatty: I'm happy as always
+Julia: What is your hobby? 
+Chatty: I love to play the piano
+Julia: exit
+Good Bye!
+```
+
+# Contributors:
+- [Sedat Aybars Nazlica](https://github.com/saybarsnazlica)
+"""
+
 
 # Chatbot type
 struct Chatbot
@@ -6,6 +29,7 @@ struct Chatbot
     mood::String
     hobby::String
 end
+
 
 # Parse the user input to the question for the chatbot
 function parse_input(input::String)
@@ -24,6 +48,7 @@ function parse_input(input::String)
     return input
 end
 
+
 # Respond to the question
 # Give a random response so the conversation feels more natural
 function respond(bot::Chatbot, question::String)
@@ -38,6 +63,7 @@ function respond(bot::Chatbot, question::String)
     println("$(bot.name): ", response)
 end
 
+
 # Main function to chat
 function chat()
     bot = Chatbot("Chatty", "happy", "play the piano")
@@ -46,6 +72,7 @@ function chat()
     while true
         user_input = lowercase(Base.prompt("$(username)"))
         if user_input == "exit"
+            println("Good Bye!")
             break
         else
             question = parse_input(user_input)
@@ -53,6 +80,7 @@ function chat()
         end
     end
 end
+
 
 # Call the chat() function
 chat()
